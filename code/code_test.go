@@ -17,12 +17,14 @@ func TestMake(t *testing.T) {
 		instruction := Make(tt.op, tt.operands...)
 
 		if len(instruction) != len(tt.expected) {
-			t.Errorf("Instruction has wrong length. Expected %d, got %d", len(tt.expected), len(instruction))
+			t.Errorf("Instruction has wrong length. Expected %d, got %d",
+				len(tt.expected), len(instruction))
 		}
 
 		for i, b := range tt.expected {
 			if instruction[i] != tt.expected[i] {
-				t.Errorf("Wrong byte at position %d. Expected %d, got %d", i, b, instruction[i])
+				t.Errorf("Wrong byte at position %d. Expected %d, got %d",
+					i, b, instruction[i])
 			}
 		}
 	}
