@@ -2,9 +2,9 @@ package parser
 
 import (
 	"fmt"
-	"squ1d/ast"
-	"squ1d/lexer"
-	"squ1d/token"
+	"squ1dlang2/ast"
+	"squ1dlang2/lexer"
+	"squ1dlang2/token"
 	"strconv"
 )
 

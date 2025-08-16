@@ -2,8 +2,8 @@ package parser
 
 import (
 	"fmt"
-	"squ1d/ast"
-	"squ1d/lexer"
+	"squ1dlang2/ast"
+	"squ1dlang2/lexer"
 	"testing"
 )
 

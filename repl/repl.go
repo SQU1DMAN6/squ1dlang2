@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 	"os/user"
-	"squ1d/evaluator"
-	"squ1d/lexer"
-	"squ1d/object"
-	"squ1d/parser"
+	"squ1dlang2/evaluator"
+	"squ1dlang2/lexer"
+	"squ1dlang2/object"
+	"squ1dlang2/parser"
 )
 
 const PROMPT = ">> "

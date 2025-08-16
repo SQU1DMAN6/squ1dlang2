@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"squ1d/token"
+	"squ1dlang2/token"
 )
 
 type Lexer struct {
